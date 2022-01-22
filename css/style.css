@@ -244,12 +244,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 }
 
 #menu-content{
-	margin-left: -100%;
+	transform: 	translateX(	-100%);
 	width: 100%;
 	font-size: 70%;
 }
 #menu-content.active{
-	transform: translateX(150%);
+	transform: translateX(50%);
 }
 .contenuto-princ{
 	margin-top: 55vh;
