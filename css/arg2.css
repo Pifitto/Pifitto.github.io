@@ -6,10 +6,6 @@
 font-family: 'Barlow', sans-serif;
 	font-weight: 	1200;
 }
-a{
-	text-decoration: none;
-	color: #9c88ff;
-}
 body{
 	overflow-x: hidden;
 }
@@ -22,6 +18,11 @@ body{
 ::-webkit-scrollbar-thumb {
   background: #9c88ff; 
   border-radius: 3px;
+}
+
+a{
+	text-decoration: none;
+	color: #9c88ff;
 }
 
 .navbar{

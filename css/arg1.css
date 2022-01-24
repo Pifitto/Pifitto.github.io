@@ -6,12 +6,12 @@
 font-family: 'Barlow', sans-serif;
 	font-weight: 	1200;
 }
+body{
+	overflow-x: hidden;
+}
 a{
 	text-decoration: none;
 	color: #9c88ff;
-}
-body{
-	overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 10px;
