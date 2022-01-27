@@ -27,6 +27,14 @@ a{
   border-radius: 3px;
 }
 
+#firma{
+	width: 80%;
+	margin-left: 10%;
+	text-align: right;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
 .navbar{
 	width: 100%;
 	height: 70px;
@@ -91,7 +99,7 @@ a{
 	transition: 0.4s;
 	z-index: 103;
 	color: #9c88ff;
-	font-size: 1rem;
+	font-size: 70%;
 }
 #voci{
 	margin-top: 70px;
@@ -233,7 +241,47 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 	z-index: -90;
 }
 
+#contenuto-principale{
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 85px;
+	--size: 1.5rem;
+	padding-bottom: 10vh;
+}
 
+#contenuto-principale h1{
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: #9c88ff;
+}
+#cose, #come-fatta, #attivita, #membrana{
+	font-size: var(--size);
+	font-weight: 500;
+}
+#cose::before{
+	content: "COS'E'";
+	position: relative;
+	font-weight: 1000;
+	font-size: 2rem;
+	top: 0;
+}
+
+
+#membrana::before{
+	content: "LE CELLULE VEGETALI E LA MEMBRANA ESTERNA";
+		position: relative;
+	font-weight: 1000;
+	font-size: 2rem;
+	top: 0;
+}
+#come-fatta::before{
+	content: "COME'E' FATTA";
+	position: relative;
+	font-weight: 1000;
+	font-size: 2rem;
+	top: 0;
+}
 #coperto{
 	position: fixed;
 	width: 100%;
@@ -245,6 +293,15 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 #coperto.active{
 	transform: translateX(100%);
 }
+
+#attivita::before{
+	content: "LE DIVERSE ATTIVITÀ DELLE MEMBRANE CHE DIPENDONO DALLA PRESENZA DI SPECIFICHE PROTEINE";
+		position: relative;
+	font-weight: 1000;
+	font-size: 2rem;
+	top: 0;
+}
+
 
 @media screen and (max-width:600px){
 .princ{
